@@ -1,0 +1,60 @@
+#tennisField{
+    width: 600px;
+    height: 340px;
+    background-color: #37B7A8;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+#doubles {
+    position:absolute;
+    width: 600px;
+    height: 1px;
+    background: #FFFFFF;
+    margin-top: 30px;
+}
+#doublesBottom{
+    position:absolute;
+    width: 600px;
+    height: 1px;
+    background: #FFFFFF;
+    margin-top: 310px;
+}
+#service{
+    position: absolute;
+    width: 1px;
+    height: 280px;
+    margin-left: 100px;
+    margin-top: 30px;
+    background: #FFFFFF
+}
+#serviceLeft{
+    position: absolute;
+    width: 1px;
+    height: 280px;
+    margin-left: 500px;
+    margin-top: 30px;
+    background: #FFFFFF
+            
+}
+
+#line{
+    position:absolute;
+    width: 400px;
+    height: 1px;
+    background: #FFFFFF;
+    margin-top: 170px;
+    margin-left: 100px;
+}
+#centLine{
+    position: absolute;
+    width: 1px;
+    height: 340px;
+    margin-left: 300px;
+    margin-top: 0px;
+    background: #FFFFFF
+}
+
+
