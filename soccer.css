@@ -1,0 +1,79 @@
+* {
+    text-align: center;
+}
+#futbolField {
+    width: 600px;
+    height: 340px;
+    background-color: #4C6750;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+
+    
+}
+
+#goalBox {
+    width: 100px;
+    height: 200px;
+    background-color: #4C6750;
+    border: 3px solid #FFFFFF;
+    margin-top: 70px;
+    position: absolute;
+    
+   
+}
+
+#goalBoxLeft {
+    width: 100px;
+    height: 200px;
+    background-color: #4C6750;
+    border: 3px solid #FFFFFF;
+    margin-top: 70px;
+    margin-left: 494px;
+    position: absolute;
+}
+
+#boxArc {
+    width: 50px;
+    height: 100px;
+    border: 2px solid #FFFFFF;
+    background:  #4C6750;
+    border-radius: 0 100px 100px 0;
+    position: absolute;
+    margin-left: 103px;
+    margin-top: 120px;
+}
+
+#boxArcLeft{
+    width: 50px;
+    height: 100px;
+    border: 2px solid #FFFFFF;
+    background:  #4C6750;
+    border-radius: 0 100px 100px 0;
+    position: absolute;
+    margin-left: 443px;
+    margin-top: 120px;
+    transform: rotate(180deg);
+}
+
+#halfwayLine {
+    width: 2px;
+    height: 340px;
+    background: #FFFFFF;
+    border: 0px;
+    position: absolute;
+    margin-left: 299px;
+    
+}
+
+#circleCenter {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    background: #4C6750;
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 120px;
+}
