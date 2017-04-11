@@ -5,6 +5,69 @@
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 40px;
+}
+
+#threePointLine {
+    width: 200px; 
+    height: 250px; 
+    border: 2px solid #FFFFFF;
+    border-radius: 0px 150px 150px 0px;
+    margin-right: 600px;
+    margin-top: 45px;
+    position:absolute
+}
+
+#threePointLineLeft {
+    width: 200px; 
+    height: 250px; 
+    border: 2px solid #FFFFFF;
+    border-radius: 0px 150px 150px 0px ;
+    margin-left: 396px;
+    margin-top: 45px;
+    position:absolute;
+    transform: rotate(180deg);
+    
+}
+
+#block {
+    position: absolute;
+    margin-top:125px;
+    margin-left: -5px;
+    width: 14vw;
+    height: 7vw;
+    border: 2px solid #FFFFFF;
+    transform: perspective(20vw) rotateY(45deg);
+}
+
+#blockLeft {
+    position: absolute;
+    margin-top:125px;
+    margin-left: 427px;
+    width: 14vw;
+    height: 7vw;
+    border: 2px solid #FFFFFF;
+    transform: perspective(20vw) rotateY(310deg);
+}
+
+#elbowCircle {
+    width: 70px;
+    height: 70px;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 135px;
+}
+
+#elbowCircleLeft{
+    width: 70px;
+    height: 70px;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 437px;
+    margin-top: 135px;
 }
 
 #centerLine{
@@ -27,4 +90,7 @@
     margin-left: 250px;
     margin-top: 120px;
 }
+
+
+
 
