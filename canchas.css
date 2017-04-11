@@ -1,0 +1,23 @@
+body{
+    background-color: #FF334F;
+    text-align: center;
+}
+h1{
+    color: white;
+    font-family: 'Concert One', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+.btn{
+    color: #4C6750;
+    background-color: #F1A11B;
+    font-size: 40px;
+    font-family: 'Amatic SC', cursive;
+    margin: 20px;
+    border-radius: 15px;
+    border: 0px;
+    border-bottom: 0px;
+    text-align: center;
+    
+    
+}
