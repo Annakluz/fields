@@ -43,7 +43,7 @@
 #blockLeft {
     position: absolute;
     margin-top:125px;
-    margin-left: 427px;
+    margin-left: 417px;
     width: 14vw;
     height: 7vw;
     border: 2px solid #FFFFFF;
@@ -51,8 +51,8 @@
 }
 
 #elbowCircle {
-    width: 70px;
-    height: 70px;
+    width: 75px;
+    height: 75px;
     border: 2px solid #FFFFFF;
     border-radius: 50%;
     position: absolute;
@@ -61,8 +61,8 @@
 }
 
 #elbowCircleLeft{
-    width: 70px;
-    height: 70px;
+    width: 75px;
+    height: 75px;
     border: 2px solid #FFFFFF;
     border-radius: 50%;
     position: absolute;
