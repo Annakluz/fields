@@ -22,6 +22,12 @@ soccer.addEventListener("dblclick", function(){
     soccerField.style.display = "none";
 });
 
+//moving soccer ball with the event "onmousemove". 
+soccerField.onmousemove = function(e){
+    document.getElementById("soccerBall").style.top = e.pageY*1 + 5 + "px";
+    document.getElementById("soccerBall").style.left = e.pageX*1 + 5 + "px";
+}
+
 //BASKET
 basketball.addEventListener("click", function(){
     basketField.style.display = "block";
@@ -29,6 +35,8 @@ basketball.addEventListener("click", function(){
 basketball.addEventListener("dblclick", function(){
     basketField.style.display = "none";
 });
+//moving the ball with the event "onmousemove".
+
 
 //TENNIS
 tenis.addEventListener("click", function(){
